@@ -1,0 +1,85 @@
+.boxContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-color: rgb(240, 240, 240);
+    border-style: solid;
+    border-radius: 20px;
+    width: 60%;
+    height: 280px;
+    overflow:hidden;
+    margin-top:15px;
+}
+
+.box > .leftBox {
+    flex: auto;
+    background-color: rgb(255, 255, 255);
+    padding-left: 30;
+}
+
+.box > .rightBox {
+    width: 30%;
+    background-color: rgb(169, 221, 255);
+}
+
+.leftBox {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    bottom: 10;
+    color: white;
+    background-color: rgb(169, 221, 255);
+    border-color: rgb(169, 221, 255);
+    border-style:solid;
+    border-radius: 20px; 
+
+
+}
+
+ul#navbar {
+    display:inline;
+}
+ul#navbar li{
+    display:inline;
+}
+
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navName {
+    font-size: 25px;
+
+}
+
+.pageTitle {
+    text-align: center;
+}
+
+.fruit {
+    width: 250px;
+    height: 250px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(169, 221, 255);
+    border-color: rgb(169, 221, 255);
+    border-style:solid;
+    border-radius: 20px; 
+}
+
+.footerContainer {
+    text-align: center;
+}
